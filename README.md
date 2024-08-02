@@ -109,6 +109,8 @@ We are going to use F1-score for metric evaluation step. The F1 score is calcula
 
 ## 3. Analysis & Machine Learning Conclusions
 
+- Tenure has the strongest negative correlation with Churn, with the histogram visualization above we know that the rate of use of ecommerce services has increased in under 2 months.
+
 - The proportion of customers who file a complaint is higher to stop using e-commerce services by 31.7% (3x, in proportion) than those who do not file a complaint.
 
 - Surprisingly, for a satisfaction score of 4, 15.6% (109 out of 696) have churned, and for a satisfaction score of 5, 23.3% (176 out of 754) have churned, which are higher than satisfaction score of 1 and 2.
