@@ -105,3 +105,14 @@ We are going to use F1-score for metric evaluation step. The F1 score is calcula
 | OrderCount | Total number of orders placed by the customer in the last month |
 | DaySinceLastOrder | Number of days since the customer's last order |
 | CashbackAmount | Average cashback received by the customer in the last month |
+
+
+## 3. Analysis & Machine Learning Conclusions
+
+- The proportion of customers who file a complaint is higher to stop using e-commerce services by 31.7% (3x, in proportion) than those who do not file a complaint.
+
+- Surprisingly, for a satisfaction score of 4, 15.6% (109 out of 696) have churned, and for a satisfaction score of 5, 23.3% (176 out of 754) have churned, which are higher than satisfaction score of 1 and 2.
+
+- Extreme Gradient Boost with Random Over Sampling is the best model for this problem. The base model performs similarly to the model after hyperparameter tuning.
+
+- To evaluate the model, this analysis uses confusion matrix with emphasis on f1-score as evaluation metric. The model produced an f1-score of 0.91, which means the model can predict a customer would churn 91% of the time.
