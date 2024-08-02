@@ -81,3 +81,27 @@ Confusion Matrix Term:
     False Negative (FN): The model predicts a customer will not churn, but they actually do churn.
 
 We are going to use F1-score for metric evaluation step. The F1 score is calculated as the harmonic mean of precision and recall. A harmonic mean is a type of average calculated by summing the reciprocal of each value in a data set and then dividing the number of values in the dataset by that sum. The value of the F1 score lies between 0 to 1 with 1 being a better.
+
+## 2. Table Description
+
+| Feature Name | Description |
+|---|---|
+| CustomerID | Unique customer ID |
+| Churn | Flag indicating whether the customer churned (1) or not (0) |
+| Tenure | Tenure of the customer in the organization |
+| PreferredLoginDevice | Preferred device used by the customer to login (e.g., mobile, web) |
+| CityTier | City tier classification (e.g., Tier 1, Tier 2, Tier 3) |
+| WarehouseToHome | Distance between the warehouse and the customer's home |
+| PreferredPaymentMode | Preferred payment method used by the customer (e.g., credit card, debit card, cash on delivery) |
+| Gender | Gender of the customer |
+| HourSpendOnApp | Number of hours spent on the mobile application or website |
+| NumberOfDeviceRegistered | Total number of devices registered to the customer's account |
+| PreferedOrderCat | Preferred order category of the customer in the last month |
+| SatisfactionScore | Customer's satisfaction score with the service |
+| MaritalStatus | Marital status of the customer |
+| NumberOfAddress | Total number of addresses added to the customer's account |
+| OrderAmountHikeFromlastYear | Percentage increase in order value compared to last year |
+| CouponUsed | Total number of coupons used by the customer in the last month |
+| OrderCount | Total number of orders placed by the customer in the last month |
+| DaySinceLastOrder | Number of days since the customer's last order |
+| CashbackAmount | Average cashback received by the customer in the last month |
